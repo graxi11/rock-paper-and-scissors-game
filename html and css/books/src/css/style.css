@@ -1,0 +1,32 @@
+/*Google font*/
+  @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+header,
+section{
+    overflow-x: hidden;
+}
+
+:root{
+    --saira-font:'saira', cursive;
+    --semi:'semi', cursive;
+    --condensed:'condensed', cursive;
+    --display:'display', currsive:
+    --light-black: black;
+    --bggradient: linear-gradient(to bottom,#dd2476,#ff512f);
+    --light-gray: rgba(255,255,255,0.5)
+}
+header a{
+    font-family: var(--saira-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header{
+    background: #f50d5eec;
+    background: var(--bggradient);
+}

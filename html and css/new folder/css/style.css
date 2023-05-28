@@ -1,0 +1,76 @@
+*{
+    margin: auto;
+    padding: left;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url(5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-size: 100px;
+}
+.navbar{
+    background: red;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float:left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 100px;
+    font-family: Arial,;
+    padding-left: 50px;
+    float: left;
+}
+.menu{
+    width: 600px;
+    float: left;
+    height: 90px;
+    margin-left: 1500px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 47px;
+    font-size: 60px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition:  0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    float: right;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: antiquewhite;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
